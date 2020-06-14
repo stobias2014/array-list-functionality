@@ -42,7 +42,9 @@ public class App {
 		
 		System.out.println("\nSize: " + names.size());
 		
-		
+		System.out.println("\nCleared all....");
+		names.clear();
+		print(names);
 		
 	}
 	
