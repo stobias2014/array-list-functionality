@@ -15,25 +15,32 @@ public class App {
 		names.add("Hank Hill");
 		names.add("Peggy Hill");
 		
+		System.out.println("Priniting names....");
 		print(names);
+		System.out.println();
 		
 		names.remove(0);
 		
+		System.out.println("Removed a name....");
 		print(names);
+		System.out.println();
 		
 		names.add(4, "Blah Name");
 		
+		System.out.println("Added name at index...");
 		print(names);
+		System.out.println();
 		
-		System.out.println(names.contains("Hank Hill"));
 		
-		System.out.println(names.get(2));
+		System.out.println("\nContains Hank Hill: " + names.contains("Hank Hill"));
 		
-		System.out.println(names.indexOf("Peggy Hill"));
+		System.out.println("\nIndex 2: " + names.get(2));
 		
-		System.out.println(names.isEmpty());
+		System.out.println("\nIndex of Peggy Hill: " + names.indexOf("Peggy Hill"));
 		
-		System.out.println(names.size());
+		System.out.println("\nIs empty: " + names.isEmpty());
+		
+		System.out.println("\nSize: " + names.size());
 		
 		
 		
